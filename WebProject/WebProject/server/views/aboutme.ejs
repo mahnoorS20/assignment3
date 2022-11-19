@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="Content/aboutme.css">
+
+<!-- prints the code from ejsPages/header file(code has to be in ejs form)-->
+<%- include ejsPages/header.ejs %>
+<%- include ejsPages/navTop.ejs %>
+
+<body>
+<!-- Prints on the main pages and text-muted makes the text fade -->
+<main>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <style>
+  body
+  {
+    font-family: Georgia, serif;
+  }
+  </style>
+
+    <h1 class="display-5">Welcome! 
+    <small class="text-muted"> Netflix Shows.</small></h1>
+    
+  </div>
+  </div>
+</main>
+
+
+
+<div class="side">
+    <aside class="left-sidebar">
+      <%- include ejsPages/back.ejs %>
+    </aside>
+</div>
+
+
+
+</body>
+
+
+<!-- prints the code from ejsPages/navBottom file(code has to be in ejs form)-->
+<%- include ejsPages/navBottom.ejs %>
+<%- include ejsPages/footer.ejs %>
+<%- include ejsPages/links.ejs %>
+
+</html>
+</head>
+
+        

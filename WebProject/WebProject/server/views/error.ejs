@@ -1,0 +1,13 @@
+<!-- prints the code from ejsPages/header file(code has to be in ejs form)-->
+<%- include ejsPages/header.ejs %>
+<%- include ejsPages/navTop.ejs %>
+
+<div class = "container">
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+</div>
+
+<!-- prints the code from ejsPages/navBottom file(code has to be in ejs form)-->
+<%- include ejsPages/navBottom.ejs %>
+<%- include ejsPages/footer.ejs %>

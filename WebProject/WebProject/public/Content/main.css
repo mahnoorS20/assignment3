@@ -1,0 +1,39 @@
+/* custom css goes here */
+
+main{
+    margin-left: 38%;
+    margin-top:7%
+}
+.navbar-text{
+    margin-left: 45%;
+}
+body{
+    background:#DBBA41;
+}
+.navbar{
+    background: #BAF7BD;
+}
+.box-one{
+    position:absolute;
+    font-family: Georgia, serif;
+   
+    margin-left: 602px;
+    margin-top:1%;
+
+}
+.left-sidebar{
+    /*margin-left: 1185px;*/
+    background: #B1D9AB;
+    margin-top: -215px;
+    flex: 1 1 0;
+    height:680px;
+    width: 350px;
+    padding:4% 1%;
+
+}
+.navbar-brand{
+    margin-left: 40%;
+    font-family: Georgia, serif;
+    font-size: larger;
+
+}
